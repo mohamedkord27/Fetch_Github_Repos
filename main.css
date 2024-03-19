@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: tahoma, Arial;
+    /* mohamedkord27 */
+}
+
+.repos-container{
+    margin: auto;
+    width: 800px;
+    background-color: #eee;
+}
+
+.repos-container .get-repos{
+    background-color: #eee;
+    display: flex;
+    padding: 20px;
+
+}
+.repos-container .get-repos input{
+    padding: 5px 20px;
+    width: 100%;
+    font-size: 20px;
+    height: 54px;
+    border: none;
+}
+.repos-container .get-repos input:focus{
+    outline: 2px solid red;
+}
+.repos-container .get-button{
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 54px;
+    width: 140px;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.show-data{
+    padding: 20px;
+    background-color: #ddd;
+
+}
+.show-data .repoBox{
+    background-color: #eee;
+    padding: 15px;
+}
+.show-data .repoBox:not(:last-child){
+    margin-bottom: 5px;
+}
+
+.show-data .repoBox a{
+    background-color: #ff0072;
+    text-decoration: none;
+}
+.show-data .repoBox span{
+    background-color: #007b80;
+}
+.show-data .repoBox a,
+.show-data .repoBox span{
+    float: right;
+    width: 90px;
+    margin-left: 4px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 6px;
+    color: white;
+    font-size: 12px;
+}
